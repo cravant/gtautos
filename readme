@@ -1,0 +1,221 @@
+# APEX PERFORMANCE TUNING - WEBSITE
+
+Professional performance tuning company website built with pure HTML, CSS, and JavaScript.
+
+## 📁 FOLDER STRUCTURE
+
+```
+gt-autos/
+│
+├── index.html              # Homepage
+├── services.html           # Services detail page
+├── about.html             # About/company page
+├── gallery.html           # Project gallery
+├── contact.html           # Contact page with form
+├── styles.css             # Main stylesheet
+├── script.js              # JavaScript functionality
+│
+├── images/                # Image assets (create this folder)
+│   ├── hero/
+│   ├── services/
+│   ├── gallery/
+│   ├── about/
+│   └── shop/
+│
+└── README.md              # This file
+```
+
+## 🚀 SETUP INSTRUCTIONS
+
+### 1. File Organization
+- Place all HTML files in the root directory
+- Keep `styles.css` and `script.js` in the root directory
+- Create an `images/` folder for your photos
+
+### 2. Image Replacement
+Replace all `[Image placeholder]` divs with actual images:
+
+```html
+<!-- Replace this: -->
+<div class="image-placeholder">[Description]</div>
+
+<!-- With this: -->
+<img src="images/your-image.jpg" alt="Description">
+```
+
+**Recommended image sizes:**
+- Hero background: 1920x1080px or larger
+- Service images: 800x600px
+- Gallery images: 1200x800px
+- Team photos: 600x600px (square)
+- Shop photos: 1200x800px
+
+### 3. Contact Form Setup (Formspree)
+
+1. Go to [Formspree.io](https://formspree.io)
+2. Sign up for a free account
+3. Create a new form
+4. Copy your form endpoint ID
+5. In `contact.html`, replace `YOUR_FORM_ID` with your actual form ID:
+
+```html
+<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+```
+
+### 4. Google Maps Integration
+
+In `contact.html`, replace the map placeholder with an actual Google Maps embed:
+
+1. Go to [Google Maps](https://maps.google.com)
+2. Search for your business address
+3. Click "Share" → "Embed a map"
+4. Copy the iframe code
+5. Replace the map placeholder div
+
+### 5. Customization
+
+**Update business information:**
+- Company name: Search and replace "GT Autos" with your shop name
+- Address: Update in footer and contact page
+- Phone: Update in footer and contact page
+- Email: Update in footer and contact page
+- Hours: Update in footer and contact page
+
+**Adjust colors:**
+Edit the CSS variables in `styles.css`:
+```css
+:root {
+    --color-red: #d32f2f;           /* Your primary color */
+    --color-red-dark: #b71c1c;      /* Darker shade */
+    --color-accent: #ff3d00;         /* Accent color */
+}
+```
+
+## 🎨 DESIGN FEATURES
+
+### Typography
+- **Display Font:** Rajdhani (aggressive, industrial, motorsport-inspired)
+- **Body Font:** Barlow (clean, technical, readable)
+
+### Color Palette
+- **Primary:** Dark theme (black, charcoal)
+- **Accent:** Red (#d32f2f)
+- **Text:** Off-white, gray scale
+
+### Key Components
+- Fixed navigation with scroll effects
+- Mobile-responsive hamburger menu
+- Animated service cards
+- Filterable gallery
+- Working contact form
+- Smooth scroll navigation
+
+## 📱 RESPONSIVE DESIGN
+
+The site is fully responsive with breakpoints at:
+- Desktop: 1024px+
+- Tablet: 768px - 1023px
+- Mobile: < 768px
+
+## 🔧 FEATURES
+
+### Navigation
+- Fixed header with transparent background
+- Mobile hamburger menu
+- Smooth scroll to sections
+- Active page highlighting
+
+### Homepage
+- Hero section with stats counter
+- Services preview cards
+- Trust indicators
+- Platform expertise tags
+- Call-to-action sections
+
+### Services Page
+- Detailed service descriptions
+- Pricing information
+- Feature lists
+- Service imagery
+
+### About Page
+- Company story
+- Team member profiles
+- Facility information
+- Certifications
+
+### Gallery
+- Filterable project showcase
+- Build specs and power numbers
+- Hover effects
+- Responsive grid
+
+### Contact Page
+- Working Formspree form
+- Business hours
+- Contact information
+- Map integration (placeholder)
+
+## 🌐 BROWSER SUPPORT
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 📝 NOTES
+
+### For Live Deployment
+
+1. **Optimize Images:**
+   - Compress all images (use TinyPNG or similar)
+   - Convert to WebP format for better performance
+   - Use appropriate sizes (don't upload 5MB images)
+
+2. **SEO:**
+   - Update meta descriptions in each HTML file
+   - Add relevant keywords
+   - Create a sitemap.xml
+   - Add Google Analytics
+
+3. **Performance:**
+   - Enable gzip compression on server
+   - Minify CSS and JS for production
+   - Add caching headers
+
+4. **Security:**
+   - Use HTTPS
+   - Add CSP headers
+   - Keep forms secure with Formspree
+
+## 🎯 CONTENT GUIDELINES
+
+This website is designed for a **professional performance tuning shop**. Keep content:
+
+- **Technical and accurate** - Use real automotive terminology
+- **Professional** - Avoid gimmicky marketing language
+- **Data-driven** - Mention specific power numbers, platforms, equipment
+- **Safety-conscious** - Emphasize reliability and proper tuning practices
+
+## 💼 BUSINESS CUSTOMIZATION CHECKLIST
+
+- [ ] Replace all placeholder images
+- [ ] Update company name throughout site
+- [ ] Update contact information (address, phone, email)
+- [ ] Update business hours
+- [ ] Configure Formspree contact form
+- [ ] Add Google Maps embed
+- [ ] Customize service offerings and pricing
+- [ ] Add real project photos to gallery
+- [ ] Update team member information
+- [ ] Add actual certifications/partnerships
+- [ ] Adjust platform expertise to your specialties
+- [ ] Review and customize all text content
+
+## 📞 SUPPORT
+
+For questions about HTML/CSS/JavaScript implementation, consult standard web development resources or hire a web developer for advanced customization.
+
+---
+
+**Built for serious performance tuning businesses. No frameworks, no fluff, just clean code.**
