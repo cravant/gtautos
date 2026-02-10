@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | GT Autos</title>
+    <meta name="description" content="ECU tuning, dyno services, performance diagnostics, and custom builds. Professional tuning solutions for all platforms.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">GT</span>
+                    <span class="logo-sub">PERFORMANCE</span>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>TUNING SERVICES</h1>
+            <p>Professional calibration and performance solutions</p>
+        </div>
+    </section>
+
+    <!-- Services Detail -->
+    <section class="services-detail">
+        <div class="container">
+            
+            <!-- ECU Tuning -->
+            <div class="service-detail" id="ecu-tuning">
+                <div class="service-detail-header">
+                    <h2>ECU / FLASH TUNING</h2>
+                    <span class="service-tag">CORE SERVICE</span>
+                </div>
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <p class="service-intro">
+                            Custom ECU calibration for factory and aftermarket engine management systems. We specialize in both read/write flash tuning for OEM ECUs and full standalone programming for race applications.
+                        </p>
+                        <h3>What We Tune</h3>
+                        <ul class="feature-list">
+                            <li>Factory ECU flash tuning (Hondata, COBB, EcuTek, HP Tuners, etc.)</li>
+                            <li>Standalone ECU programming (Haltech, AEM, Link, MoTeC, Syvecs)</li>
+                            <li>Piggyback tuning (AEM FIC, GrimmSpeed, etc.)</li>
+                            <li>E85 / flex fuel conversion and tuning</li>
+                            <li>Methanol injection integration</li>
+                            <li>Anti-lag, launch control, flat-foot shifting</li>
+                        </ul>
+                        <h3>Tuning Process</h3>
+                        <p>
+                            All ECU tuning begins with a baseline pull and comprehensive data review. We calibrate fuel tables, ignition timing, boost control, and VVT across the entire operating range. Street tunes are refined through multiple road test iterations. Track cars receive additional development for race fuel, cooling systems, and competition-specific features.
+                        </p>
+                        <div class="service-pricing">
+                            <div class="pricing-item">
+                                <span class="price-label">Flash Tuning (OEM ECU)</span>
+                                <span class="price">Starting at $600</span>
+                            </div>
+                            <div class="pricing-item">
+                                <span class="price-label">Standalone ECU Setup & Tune</span>
+                                <span class="price">Starting at $1,200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-detail-image">
+                        <div class="image-placeholder">[ECU tuning laptop and interface]</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dyno Tuning -->
+            <div class="service-detail" id="dyno-tuning">
+                <div class="service-detail-header">
+                    <h2>DYNO TUNING</h2>
+                    <span class="service-tag">PRECISION CALIBRATION</span>
+                </div>
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <p class="service-intro">
+                            All performance tuning is validated on our Dynojet 424xLC2 AWD dynamometer with integrated wideband AFR monitoring and full exhaust extraction. We tune under load to optimize power delivery across the entire RPM range.
+                        </p>
+                        <h3>Dyno Services</h3>
+                        <ul class="feature-list">
+                            <li>Baseline power runs with full printout</li>
+                            <li>Custom dyno tuning (naturally aspirated, turbo, supercharged)</li>
+                            <li>Wideband AFR analysis and correction</li>
+                            <li>Boost curve optimization and wastegate calibration</li>
+                            <li>Drivetrain loss testing</li>
+                            <li>Before/after modification testing</li>
+                        </ul>
+                        <h3>Our Equipment</h3>
+                        <p>
+                            Dynojet 424xLC2 with LinkECU capabilities, Innovate LM-2 dual wideband system, high-flow ventilation, and climate-controlled bay. All dyno sessions include comprehensive datalogging with EGT, boost pressure, and knock detection where applicable.
+                        </p>
+                        <div class="service-pricing">
+                            <div class="pricing-item">
+                                <span class="price-label">Baseline Power Run (3 pulls)</span>
+                                <span class="price">$150</span>
+                            </div>
+                            <div class="pricing-item">
+                                <span class="price-label">Dyno Tuning Session (per hour)</span>
+                                <span class="price">$175/hr</span>
+                            </div>
+                            <div class="pricing-item">
+                                <span class="price-label">Full Dyno Tune Package</span>
+                                <span class="price">Starting at $800</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-detail-image">
+                        <div class="image-placeholder">[Car on dyno making a pull]</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance Diagnostics -->
+            <div class="service-detail" id="diagnostics">
+                <div class="service-detail-header">
+                    <h2>PERFORMANCE DIAGNOSTICS</h2>
+                    <span class="service-tag">PROBLEM SOLVING</span>
+                </div>
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <p class="service-intro">
+                            Advanced diagnostic services for modified vehicles. We troubleshoot tuning issues, verify sensor accuracy, identify mechanical problems, and resolve drivability concerns.
+                        </p>
+                        <h3>Diagnostic Capabilities</h3>
+                        <ul class="feature-list">
+                            <li>OBD-II and proprietary protocol scanning</li>
+                            <li>Real-time datalog analysis</li>
+                            <li>Wideband AFR verification and sensor testing</li>
+                            <li>Boost leak testing and pressure verification</li>
+                            <li>Compression and leak-down testing</li>
+                            <li>Fuel pressure and flow testing</li>
+                            <li>Ignition system diagnostics</li>
+                        </ul>
+                        <h3>When You Need Diagnostics</h3>
+                        <p>
+                            If your modified car is experiencing knock, running lean, misfiring, or showing unexpected power loss, diagnostics identify the root cause. We verify all sensor inputs, check fuel delivery, test ignition systems, and validate boost control before making tuning adjustments.
+                        </p>
+                        <div class="service-pricing">
+                            <div class="pricing-item">
+                                <span class="price-label">Performance Diagnostic Inspection</span>
+                                <span class="price">$125/hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-detail-image">
+                        <div class="image-placeholder">[Diagnostic tools and laptop]</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance Installs -->
+            <div class="service-detail" id="installs">
+                <div class="service-detail-header">
+                    <h2>PERFORMANCE INSTALLATIONS</h2>
+                    <span class="service-tag">BOLT-ON UPGRADES</span>
+                </div>
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <p class="service-intro">
+                            Professional installation of aftermarket performance parts. We handle everything from simple bolt-ons to complex forced induction systems.
+                        </p>
+                        <h3>Installation Services</h3>
+                        <ul class="feature-list">
+                            <li>Turbo and supercharger kit installation</li>
+                            <li>Intercooler and charge pipe upgrades</li>
+                            <li>Exhaust system installation (downpipes, cat-backs, headers)</li>
+                            <li>Intake manifold and throttle body upgrades</li>
+                            <li>Fuel system upgrades (injectors, pumps, regulators)</li>
+                            <li>Clutch and flywheel installation</li>
+                            <li>Suspension and chassis upgrades</li>
+                        </ul>
+                        <p>
+                            All installations include proper fitment verification, leak testing where applicable, and road testing. We work with your parts or can source components through our network of performance suppliers.
+                        </p>
+                        <div class="service-pricing">
+                            <div class="pricing-item">
+                                <span class="price-label">Installation Labor</span>
+                                <span class="price">$125/hr</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-detail-image">
+                        <div class="image-placeholder">[Turbo installation in progress]</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom Builds -->
+            <div class="service-detail" id="custom-builds">
+                <div class="service-detail-header">
+                    <h2>CUSTOM PERFORMANCE BUILDS</h2>
+                    <span class="service-tag">FULL BUILD SERVICE</span>
+                </div>
+                <div class="service-detail-content">
+                    <div class="service-detail-text">
+                        <p class="service-intro">
+                            Complete performance builds from concept to track. We handle full engine builds, turbo conversions, engine swaps, and ground-up race car preparation.
+                        </p>
+                        <h3>Build Capabilities</h3>
+                        <ul class="feature-list">
+                            <li>Forced induction conversions (turbo/supercharger)</li>
+                            <li>Engine swaps and drivetrain conversions</li>
+                            <li>Built engine assembly (forged internals, upgraded valvetrain)</li>
+                            <li>Complete fuel system design and installation</li>
+                            <li>Custom exhaust fabrication</li>
+                            <li>Wiring and electrical system integration</li>
+                            <li>Track preparation and setup</li>
+                        </ul>
+                        <h3>Build Process</h3>
+                        <p>
+                            Every build starts with a consultation to define goals, budget, and timeline. We provide detailed quotes and maintain communication throughout the build. Projects include regular photo updates and progress reports. All work is dyno tested and road validated before delivery.
+                        </p>
+                        <div class="service-pricing">
+                            <div class="pricing-item">
+                                <span class="price-label">Custom Build Consultation</span>
+                                <span class="price">Free</span>
+                            </div>
+                            <div class="pricing-item">
+                                <span class="price-label">Build Projects</span>
+                                <span class="price">Quote-based</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-detail-image">
+                        <div class="image-placeholder">[Built engine or complete build]</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>READY TO SCHEDULE SERVICE?</h2>
+                <p>Contact us to discuss your tuning needs and availability</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>GT AUTOS</h4>
+                    <p>Professional ECU and dyno tuning services for serious enthusiasts and racers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li>1247 Performance Drive</li>
+                        <li>Industrial District</li>
+                        <li>Phone: (555) 427-8863</li>
+                        <li>info@gtautos.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>HOURS</h4>
+                    <ul>
+                        <li>Monday - Friday: 9AM - 6PM</li>
+                        <li>Saturday: 10AM - 4PM</li>
+                        <li>Sunday: Closed</li>
+                        <li>Dyno by appointment only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GT Autos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
