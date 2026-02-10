@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | GT Autos</title>
+    <meta name="description" content="Schedule a consultation or request information about our tuning services.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-text">GT</span>
+                    <span class="logo-sub">PERFORMANCE</span>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>GET IN TOUCH</h1>
+            <p>Schedule a consultation or request service information</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>SEND US A MESSAGE</h2>
+                    <p class="form-intro">Fill out the form below and we'll get back to you within 24 hours. For immediate assistance, give us a call.</p>
+                    
+                    <!-- Replace YOUR_FORM_ID with your actual Formspree form ID -->
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="vehicle">Vehicle (Year / Make / Model)</label>
+                            <input type="text" id="vehicle" name="vehicle" placeholder="e.g., 2020 Honda Civic Type R">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="ecu-tuning">ECU / Flash Tuning</option>
+                                <option value="dyno-tuning">Dyno Tuning</option>
+                                <option value="diagnostics">Performance Diagnostics</option>
+                                <option value="installation">Performance Installation</option>
+                                <option value="custom-build">Custom Build</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us about your project, current modifications, and what you're looking to achieve..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-block">
+                        <h3>CONTACT INFORMATION</h3>
+                        <div class="info-item">
+                            <span class="info-label">Address</span>
+                            <p>1247 Performance Drive<br>Industrial District<br>Your City, ST 12345</p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone</span>
+                            <p><a href="tel:5554278863">(555) 427-8863</a></p>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email</span>
+                            <p><a href="mailto:info@gtautos.com">info@gtautos.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>BUSINESS HOURS</h3>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Saturday</span>
+                                <span>10:00 AM - 4:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                        <p class="hours-note">Dyno appointments available by reservation only. Drop-offs accepted during business hours.</p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>BEFORE YOUR VISIT</h3>
+                        <ul class="visit-checklist">
+                            <li>Schedule dyno appointments in advance</li>
+                            <li>Bring documentation of current modifications</li>
+                            <li>Datalogging files welcome for review</li>
+                            <li>Ensure vehicle is in good mechanical condition</li>
+                            <li>Full tank of fuel recommended for tuning</li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>EMERGENCY SUPPORT</h3>
+                        <p>For urgent tuning-related issues with vehicles we've serviced, call our main line and select option 9. Emergency support available for critical issues only.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="map-section">
+        <div class="map-placeholder">
+            <p>[Google Maps Embed - Add your location coordinates]</p>
+            <!-- Replace with actual Google Maps embed code:
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+            </iframe>
+            -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>GT AUTOS</h4>
+                    <p>Professional ECU and dyno tuning services for serious enthusiasts and racers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li>1247 Performance Drive</li>
+                        <li>Industrial District</li>
+                        <li>Phone: (555) 427-8863</li>
+                        <li>info@gtautos.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>HOURS</h4>
+                    <ul>
+                        <li>Monday - Friday: 9AM - 6PM</li>
+                        <li>Saturday: 10AM - 4PM</li>
+                        <li>Sunday: Closed</li>
+                        <li>Dyno by appointment only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GT Autos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
